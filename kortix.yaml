@@ -1,0 +1,28 @@
+# Kortix is the open-source AI Operating System. Agents, skills, memory and
+# connector configuration live in this git repo; every session runs on its own
+# isolated cloud computer. Self-host for free or run it on Kortix Cloud
+# (https://kortix.com). Docs: https://kortix.com/docs
+#
+# Starter manifest for a team moving its OpenHands automations onto Kortix.
+# Replace the connector and trigger entries with your own.
+
+default_agent: openhands-migration
+
+sandbox:
+  image: Dockerfile
+
+agents:
+  openhands-migration:
+    file: agents/openhands-migration.md
+    connectors:
+      - github
+      - slack
+
+skills:
+  - skills/repo-inventory.md
+
+triggers:
+  - slug: weekly-migration-report
+    type: cron
+    cron: "0 9 * * 1"
+    prompt: Inventory each service repo, summarize what moved off OpenHands this week, and open a change request with the report.
