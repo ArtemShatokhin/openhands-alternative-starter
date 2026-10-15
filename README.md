@@ -69,3 +69,8 @@ The full side-by-side is in [Kortix vs OpenHands](https://kortix.com/blog/kortix
 ## Read next
 
 The companion pages carry the rest of the decision: [OpenHands alternatives](https://openhands-alternative.com/openhands-alternatives) compares the open-source options by the job each finishes, [OpenHands vs Kortix](https://openhands-alternative.com/openhands-vs-kortix) sets a coding harness against a whole AI Operating System, and [OpenHands pricing](https://openhands-alternative.com/openhands-pricing) works through what a team pays once the work leaves coding. For the move itself there is [Migrate from OpenHands](https://openhands-alternative.com/migrate-from-openhands), and for governance and self-hosting, [OpenHands for teams](https://openhands-alternative.com/openhands-for-teams).
+
+## More of the decision
+
+- [Which open source coding agent fits best](https://openhands-alternative.com/best-open-source-coding-agent) ranks the open-source options by the job each one finishes.
+- [OpenHands limitations](https://openhands-alternative.com/openhands-limitations) covers where the harness stops and what a team runs instead.
